@@ -1,0 +1,70 @@
+# --- OS / Editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# --- Python / FastAPI ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.python-version
+dist/
+build/
+.eggs/
+*.egg-info/
+*.egg
+.pytest_cache/
+.coverage
+.coverage.*
+.cache/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+.tox/
+.hypothesis/
+.pyre/
+*.log
+
+# SQLite / local DB
+*.db
+*.sqlite
+*.sqlite3
+server/app.db
+
+# App storage (uploaded files)
+server/storage/**
+!server/storage/.gitkeep
+
+# --- Env / Secrets ---
+.env
+.env.*
+server/.env
+server/.venv
+web/.env
+*.pem
+*.key
+# keep the examples
+!server/.env.example
+!web/.env.example
+
+# --- Node / Vite (frontend) ---
+web/node_modules/
+web/dist/
+web/build/
+web/.vite/
+web/coverage/
+web/npm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*
+web/pnpm-debug.log*
+web/.DS_Store
+
+# Optional package managers’ caches
+.pnpm-store/
+npm-cache/
